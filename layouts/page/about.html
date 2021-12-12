@@ -1,0 +1,7 @@
+{{ define "main" }}
+    <h3>About page</h3>
+
+    <p>{{ "Hello world" | base64Encode }}</p>
+
+    <a href="{{ "./" | relURL }}">Go back home</a>
+{{ end }}

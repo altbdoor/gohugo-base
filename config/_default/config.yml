@@ -1,0 +1,15 @@
+baseURL: 'http://altbdoor.github.io/project/'
+languageCode: en-us
+title: My New Hugo Site
+
+disableKinds:
+  - section
+  - taxonomy
+  - term
+  - RSS
+  - sitemap
+  - robotsTXT
+  - '404'
+
+ignoreErrors:
+  - error-disable-taxonomy
